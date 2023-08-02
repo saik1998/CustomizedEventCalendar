@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/cellDayText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/black" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        <View
+            android:id="@+id/dateCircle"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:visibility="gone"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:backgroundTint="@color/ods_red"/>
+        <View
+            android:id="@+id/dateCircle2"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:visibility="gone"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:backgroundTint="@color/ods_green"/>
+        <View
+            android:id="@+id/dateCircle3"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/ic_baseline_circle_24"
+            android:backgroundTint="@color/ods_orange"
+            android:visibility="gone"
+            />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
